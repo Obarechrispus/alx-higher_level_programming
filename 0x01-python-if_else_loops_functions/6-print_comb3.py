@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-for i in range(1, 10):
-  for j in range(i, 10):
-        print("{:02d}, ".format(i + j), end='')
-print("{:02d}".format(i * 10 + j, 89))
-
+for digit1 in range(0, 10):
+    for digit2 in range(digit1 + 1, 10):
+        if digit1 == 8 and digit2 == 9:
+            print("{}{}".format(digit1, digit2))
+        else:
+            print("{}{}".format(digit1, digit2), end=", ")
