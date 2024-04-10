@@ -6,6 +6,10 @@ the doc string to the  Recatngle module
 
 
 class Rectangle:
+    def __init__(self, width=0, height=0):
+        self.width = width
+        self.height = height
+
     def width(self):
         """
         this function defines a private instance of width which is achieved by .__
@@ -36,11 +40,3 @@ class Rectangle:
             raise ValueError("height must be >= 0")
         else:
             self.__height = value
-    def __init__(self, width=0, height=0):
-        """
-      we are initialising the rectangle with self, width and heigh parameters
-        """
-        self.width = width
-        self.height = height
-
-
