@@ -6,6 +6,9 @@ the doc string to the  Recatngle module
 
 
 class Rectangle:
+    """
+    this fuction rectangle defines a rectangle bye initialising threee parameter of self, width and height
+    """
     def __init__(self, width=0, height=0):
         self.width = width
         self.height = height
