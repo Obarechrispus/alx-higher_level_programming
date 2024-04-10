@@ -4,6 +4,6 @@ the doc string to the  Recatngle module
 """
 class Rectangle:
     """
-    this is the class to the REctangle module
+    this is the class to the Rectangle module
     """ 
     pass
