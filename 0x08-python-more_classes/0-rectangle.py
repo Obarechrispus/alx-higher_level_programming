@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 
-""" 
+"""
 the doc string to the  Recatngle module
 """
+
 
 class Rectangle:
 
