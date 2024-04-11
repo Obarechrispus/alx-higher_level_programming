@@ -1,8 +1,9 @@
+#!/usr/bin/python3
 >>> from add_integer import add_integer
 
 # test for intergers
->>> add_integer(3, 5)
-8
+>>> add_integer(1, 2)
+3
 
 # test with an interger and a fraction
 >>> add_integer(2, 2.5)
@@ -16,4 +17,12 @@
 >>> add_integer('a', 5)
 Traceback (most recent call last):
 	TypeError: the instances can only be intergers or floats
+
+#test adding negative numbers
+>>> add_integer(-5, 2)
+TypeError: the value should nbe greater than 0
+
+#testing with both negative figure
+>>> add_integer(-1, -1)
+TypeError: figure should be greator than 0
 
