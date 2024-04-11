@@ -1,0 +1,19 @@
+>>> from add_integer import add_integer
+
+# test for intergers
+>>> add_integer(3, 5)
+8
+
+# test with an interger and a fraction
+>>> add_integer(2, 2.5)
+4.5
+
+# test with both fractions
+>>> add_integer(2.5, 2.5)
+5
+
+#testing with non numeric numbers
+>>> add_integer('a', 5)
+Traceback (most recent call last):
+	TypeError: the instances can only be intergers or floats
+
