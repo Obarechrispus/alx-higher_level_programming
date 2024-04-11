@@ -1,5 +1,6 @@
 #!/usr/bin/python3
->>> from add_integer import add_integer
+
+>>> add_integer = _import_('0-add_integer').add_integer
 
 # test for intergers
 >>> add_integer(1, 2)
