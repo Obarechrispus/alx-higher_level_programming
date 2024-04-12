@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+"""
+my python file to be used with a testsfile 
+"""
+
+
 def add_integer(a, b=98):
     """
     a funtion that add two numbers and the function is called add_integer
@@ -13,9 +18,9 @@ def add_integer(a, b=98):
     result = x + y
     return result
 
-if __name__ == "__name__":
+if __name__ == "__main__":
     """
-    We can only use this module when it is called
+    We can only use this doctest when it is executed directly
     """
     import doctest
     doctest.testmod()
