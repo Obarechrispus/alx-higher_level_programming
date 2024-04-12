@@ -17,10 +17,3 @@ def add_integer(a, b=98):
 
     result = x + y
     return result
-
-if __name__ == "__main__":
-    """
-    We can only use this doctest when it is executed directly
-    """
-    import doctest
-    doctest.testmod()
