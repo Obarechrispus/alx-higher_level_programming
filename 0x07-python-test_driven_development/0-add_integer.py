@@ -14,5 +14,8 @@ def add_integer(a, b=98):
     return result
 
 if __name__ == "__name__":
+    """
+    We can only use this module when it is called
+    """
     import doctest
     doctest.testmod()
