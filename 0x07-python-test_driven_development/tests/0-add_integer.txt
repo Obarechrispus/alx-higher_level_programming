@@ -2,15 +2,12 @@
 
 >>> add_integer = _import_('0-add_integer').add_integer
 
-# test for intergers
 >>> add_integer(1, 2)
 3
 
-# test with an interger and a fraction
 >>> add_integer(2, 2.5)
 4.5
 
-# test with both fractions
 >>> add_integer(2.5, 2.5)
 5
 
