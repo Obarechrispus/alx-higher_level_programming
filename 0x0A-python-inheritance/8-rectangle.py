@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-
+"""
+Write a class Rectangle that inherits from BaseGeometry (7-base_geometry.py).
+"""
 class BaseGeometry:
     """Class defining methods for geometry operations"""
     def area(self):
