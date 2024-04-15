@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+A python file thatinherits from a list
+"""
 
 class MyList(list):
     """
