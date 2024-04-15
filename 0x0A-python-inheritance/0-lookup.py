@@ -9,6 +9,4 @@ def lookup(obj):
     we define a function that takes object as a parameter 
     """
 
-
-    dir(obj)
-    return (obj)
+    return (dir(obj))
