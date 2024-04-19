@@ -5,6 +5,8 @@ A function that writes into a file using the json interpretation
 
 
 import json
+
+
 def save_to_json_file(my_obj, filename):
     """
     the objest contains the json scripts while
