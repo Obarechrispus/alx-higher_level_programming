@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-a funtion that appends to the end of a file
+a funtion that appends to the end of a file named fiename
 """
 
 
