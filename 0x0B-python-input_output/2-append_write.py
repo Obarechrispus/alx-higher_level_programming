@@ -1,6 +1,11 @@
 #!/usr/bin/python3
 """
-a funtion that appends to the end of a file named fiename
+Module: file_appender
+
+This module provides a function to append text to the end of a file.
+
+Functions:
+    append_write(filename, text): Appends text to the end of the specified file.
 """
 
 
