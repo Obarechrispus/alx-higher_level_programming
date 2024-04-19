@@ -9,5 +9,7 @@ import json
 def from_json_string(my_str):
     """
     takes a single parameter
+    we use loads instead of dumps
+    because we are converting a json into a python
     """
-    return json.dumps(my_str)
+    return json.loads(my_str)
